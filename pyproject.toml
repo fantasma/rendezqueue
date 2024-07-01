@@ -1,0 +1,5 @@
+[tool.ruff]
+line-length = 88
+select = ["E", "F", "W", "I"]  # Enable common error, flake, warning, and information codes
+ignore = []
+indent-width = 2

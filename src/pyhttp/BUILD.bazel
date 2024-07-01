@@ -1,0 +1,14 @@
+
+py_binary(
+    name = "pyhttp",
+    srcs = ["main.py"],
+    main = "main.py",
+    deps = [
+        ":swapstore_py",
+    ],
+)
+
+py_library(
+    name = "swapstore_py",
+    srcs = ["swapstore.py"],
+)

@@ -1,3 +1,7 @@
+"""
+Starlark macro to run test scenario.
+"""
+
 load("@aspect_rules_js//js:defs.bzl", "js_test")
 load("@rules_sxproto//sxproto:defs.bzl", "sxproto_data")
 
